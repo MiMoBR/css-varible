@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  		<title></title>
+
+  		<style type="text/css">
+        /*  GLOBAL SCOPE  */
+        :root{
+          --colorGlobal: red;
+        }
+        #varibleScope{
+          color: var(--colorGlobal);
+        }
+
+        /* LOCAL SCOPE */
+        #localScope{
+          --colorLocal: pink;
+          color: var(--colorLocal);
+        }
+  		</style>
+
+	</head>
+	<body>
+    <h2 id="varibleScope">Using varible GLOBAL SCOPE</h2>
+ 
+    <br>
+
+    <h2 id="localScope">Using varible LOCAL SCOPE</h2>
+
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+</html>
